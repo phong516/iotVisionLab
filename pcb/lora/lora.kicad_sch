@@ -1,0 +1,72 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 663e27f7-e760-4914-ab05-df9c2f058e2c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 38.1 77.47) (size 53.34 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0073ea7c-6214-4eda-bce4-1431b09f9621)
+    (property "Sheetname" "khối nguồn" (at 38.1 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "khối nguồn.kicad_sch" (at 38.1 113.6146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lora"
+        (path "/663e27f7-e760-4914-ab05-df9c2f058e2c" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 118.11 81.28) (size 38.1 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a67a2192-4d27-4e7e-a5d8-b1d35d50b22e)
+    (property "Sheetname" "khối lora" (at 118.11 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "khối lora.kicad_sch" (at 118.11 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "MOSI" input (at 118.11 87.63 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7ea85ec3-2dd0-463b-8987-aa5e8862a530)
+    )
+    (pin "MISO" output (at 118.11 90.17 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2e1c555d-ecb8-4a55-ae8a-d414b6d06949)
+    )
+    (pin "SCK" input (at 118.11 92.71 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f6cf5424-7b39-4ed0-bd74-a13171e0789b)
+    )
+    (pin "CS" input (at 118.11 95.25 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b94656b1-8df1-4d0d-92fe-a96333a896b3)
+    )
+    (pin "RST" input (at 118.11 99.06 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 32f7ab29-0ad1-40ef-bd3f-55e53ae44db2)
+    )
+    (pin "INT" output (at 118.11 101.6 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2f38582c-b299-4269-9fea-6aea7ed810a5)
+    )
+    (instances
+      (project "lora"
+        (path "/663e27f7-e760-4914-ab05-df9c2f058e2c" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

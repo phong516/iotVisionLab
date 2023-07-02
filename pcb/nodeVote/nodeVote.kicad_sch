@@ -1,0 +1,103 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d9120360-1412-4d42-bdf7-0e68af8b0ba8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 81.28 45.72) (xy 93.98 45.72))
+    (stroke (width 0) (type default))
+    (uuid 2bd18c3f-906e-4f33-805f-5009eb790a95)
+  )
+  (wire (pts (xy 93.98 45.72) (xy 93.98 46.99))
+    (stroke (width 0) (type default))
+    (uuid 4eacb2cf-459c-4453-aefe-024213925a82)
+  )
+  (wire (pts (xy 93.98 46.99) (xy 101.6 46.99))
+    (stroke (width 0) (type default))
+    (uuid cfcfb787-f8f3-476d-aa22-7792d7c642f5)
+  )
+
+  (sheet (at 22.86 82.55) (size 62.23 50.8) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a9b3dd72-37df-4406-9f41-e8b2b46fcbf9)
+    (property "Sheetname" "esp32-c3" (at 22.86 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp32-c3.kicad_sch" (at 22.86 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nodeVote"
+        (path "/d9120360-1412-4d42-bdf7-0e68af8b0ba8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 22.86 22.86) (size 58.42 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b7c7c791-56d5-46b6-ae07-8d2c6b36ee2d)
+    (property "Sheetname" "4 nút nhấn" (at 22.86 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4 nút nhấn.kicad_sch" (at 22.86 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "das" input (at 81.28 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a9f28701-e0dd-4fcd-9d93-beee33abb046)
+    )
+    (instances
+      (project "nodeVote"
+        (path "/d9120360-1412-4d42-bdf7-0e68af8b0ba8" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 22.86) (size 63.5 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d470f795-8ad8-4bdd-b8a6-38c5475f31c2)
+    (property "Sheetname" "buzeer" (at 101.6 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "buzzer.kicad_sch" (at 101.6 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "sdf" input (at 101.6 46.99 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 3471e2eb-f752-4cc1-89a7-f633a9523891)
+    )
+    (instances
+      (project "nodeVote"
+        (path "/d9120360-1412-4d42-bdf7-0e68af8b0ba8" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 100.33 83.82) (size 48.26 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fb973714-8aac-4f87-8840-a4bd9db14e9d)
+    (property "Sheetname" "khối nguồn" (at 100.33 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "khối nguồn.kicad_sch" (at 100.33 126.3146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nodeVote"
+        (path "/d9120360-1412-4d42-bdf7-0e68af8b0ba8" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
